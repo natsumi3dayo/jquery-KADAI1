@@ -46,7 +46,11 @@ stopButton.addEventListener("click",function(){
 
 //リセットボタン//
 resetButton.addEventListener("click",function(){
-startButton.disabled = false; stopButton.disabled = true; resetButton.disabled = true;
-clearInterval(Getinterval);
-display.innerHTML = "0:0:0:0";
+  startButton.disabled = false; stopButton.disabled = true; resetButton.disabled = true;
+  clearInterval(Getinterval);
+  display.innerHTML = "0:0:0:0";
+  hours = 0;
+  minutes =0;
+  seconds =0;
+  seconds2 =0; 
 })
